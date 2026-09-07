@@ -21,25 +21,25 @@ Users can **add employees** and **view all employees** in real time — no backe
 ## 📸 Screenshots
 
 ### 1. Live Website — Employee Form + Table (5 Employees, 4 Departments)
-![Website Employee Table](screenshots/website-employee-table.png)
+![Website](screenshots/website.png)
 
 ### 2. API Gateway — EmployeeAPI /employees Resource (GET, POST, OPTIONS)
-![API Gateway Employees Resource](screenshots/apigateway-employees-resource.png)
+![API Gateway](screenshots/api_gate.png)
 
 ### 3. Lambda Function — EmployeeHandler Code (Python)
-![Lambda Function Code](screenshots/lambda-function-code.png)
+![Lambda Function](screenshots/lambda_function.png)
 
 ### 4. S3 Bucket — employee-mgmt-demo (app.js, index.html, style.css)
-![S3 Bucket Files](screenshots/s3-bucket-files.png)
+![S3 Bucket](screenshots/s3.png)
 
 ### 5. IAM Role — LambdaEmployeeRole with AmazonDynamoDBFullAccess
-![IAM Lambda Role](screenshots/iam-lambda-role.png)
+![IAM Role](screenshots/iamrole.png)
 
 ### 6. DynamoDB — Explore Items (Scan returns 4 records)
-![DynamoDB Explore Items](screenshots/dynamodb-explore-items.png)
+![DynamoDB Items](screenshots/dynamo.png)
 
 ### 7. DynamoDB — Employees Table Settings
-![DynamoDB Table Settings](screenshots/dynamodb-table-settings.png)
+![DynamoDB Table](screenshots/dynamo_table.png)
 
 ---
 
