@@ -20,29 +20,26 @@ Users can **add employees** and **view all employees** in real time — no backe
 
 ## 📸 Screenshots
 
-### Website — Employee Form
-![Employee Form](screenshots/website-form.png)
+### 1. Live Website — Employee Form + Table (5 Employees, 4 Departments)
+![Website Employee Table](screenshots/website-employee-table.png)
 
-### Employee Table — 5 Employees, 4 Departments
-![Employee Table](screenshots/website-form.png)
+### 2. API Gateway — EmployeeAPI /employees Resource (GET, POST, OPTIONS)
+![API Gateway Employees Resource](screenshots/apigateway-employees-resource.png)
 
-### DynamoDB — Explore Items (4 records)
-![DynamoDB Items](screenshots/dynamodb-items.png)
+### 3. Lambda Function — EmployeeHandler Code (Python)
+![Lambda Function Code](screenshots/lambda-function-code.png)
 
-### DynamoDB — Table Settings
-![DynamoDB Table](screenshots/dynamodb-table.png)
+### 4. S3 Bucket — employee-mgmt-demo (app.js, index.html, style.css)
+![S3 Bucket Files](screenshots/s3-bucket-files.png)
 
-### Lambda Function — EmployeeHandler Code
-![Lambda Console](screenshots/lambda-console.png)
+### 5. IAM Role — LambdaEmployeeRole with AmazonDynamoDBFullAccess
+![IAM Lambda Role](screenshots/iam-lambda-role.png)
 
-### API Gateway — /employees (GET, POST, OPTIONS)
-![API Gateway](screenshots/apigateway-routes.png)
+### 6. DynamoDB — Explore Items (Scan returns 4 records)
+![DynamoDB Explore Items](screenshots/dynamodb-explore-items.png)
 
-### S3 Bucket — employee-mgmt-demo (3 files)
-![S3 Bucket](screenshots/s3-bucket.png)
-
-### IAM Role — LambdaEmployeeRole
-![IAM Role](screenshots/iam-role.png)
+### 7. DynamoDB — Employees Table Settings
+![DynamoDB Table Settings](screenshots/dynamodb-table-settings.png)
 
 ---
 
