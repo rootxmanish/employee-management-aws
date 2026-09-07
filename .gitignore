@@ -21,6 +21,11 @@ credentials
 # Bucket policy may contain account-specific ARNs
 # bucket-policy.json  ← keeping it since it has no secrets
 
+# Screenshots — add manually after blurring sensitive info
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+
 # OS files
 .DS_Store
 Thumbs.db
